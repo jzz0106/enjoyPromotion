@@ -1,0 +1,28 @@
+@charset "utf-8";
+*{margin: 0;padding:0;font-family:微软雅黑;}
+ul{list-style: none;}
+a{text-decoration: none;}
+i{font-style: normal;}
+/*body{transition: all 2s ease;}*/
+#header{height: 120px}
+.hide{display: none;}
+.gettop{position: fixed;top: 300px;right: 160px;z-index: 10;cursor: pointer;display: none;}
+.gettop2{display: none;position: fixed;top: 370px;right: 160px;z-index: 10;background-color: #f14a65;width: 39px;height: 39px;border: 1px solid #fabbc5;text-align: center;line-height: 20px;color: #ffffff;padding: 10px;font-size: 14px;cursor: pointer;}
+#header .header-menu{width: 1200px; height:120px; margin: 0 auto;position: relative;}
+#header .header-menu .header-logo{float: left; position:absolute; top:30px; left:0;z-index: 1;}
+#header .header-menu ul{width: 800px; margin-left: 80px; height: 120px; float: left; margin-left: 302px;}
+#header .header-menu ul li{float: left; width: 142px; height: 120px; margin-right: 18px;position: relative;}
+#header .header-menu ul li:before,#header .header-menu ul li:after{content: '';height: 4px;background: #f73856;width: 0%;position: absolute;bottom: 0;transition: all 0.6s ease;}
+#header .header-menu ul li:before{left: 50%;}
+#header .header-menu ul li:after{right: 50%;}
+#header .header-menu ul li:hover:before,#header .header-menu ul li:hover:after{width: 50%;}
+
+#header .header-menu ul li a{color:black; text-align: center; width: 142px; height:47px;display: block; padding-top: 73px; font-size: 18px;}
+
+#header .header-right{height:120px; width:250px;position: absolute; top: 20px;right: -180px;}
+#header .header-right .header-right-top{float:left; font-size: 28px;color: #333333;}
+#header .header-right i{display:block; text-indent: -9999px; float:left;height:29px;width: 30px; background: url(../images/icon_phone_03.png) no-repeat; margin-top: 5px;}
+#header .header-right span{display:block; float: left; text-indent: 10px;}
+#header .header-right .header-right-bottom a{font-size: 14px; color: white; display: block;float: left;height:36px;line-height: 36px;width: 110px;background: #f84d7d;text-align: center;margin:15px 5px 0;}
+#header .header-right .header-right-bottom a:first-child{background: #3d3d3d;}
+#banner{height: 545px;background: #f73856;width: 100%;padding-top: 60px;overflow: hidden;}

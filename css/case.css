@@ -1,0 +1,80 @@
+#header .header-menu ul li:nth-child(3){background: url(../images/shouye.png);}
+#header .header-menu ul li:nth-child(3) a{color: white;}
+#banner .picwall{width: 1007px;height: 496px;margin:0 auto;position: relative;}
+#banner .picwall a img{position: absolute;transition: all 0.1s linear;cursor: pointer;}
+#banner .picwall img:hover{transform: scale(1.03);}
+#banner .picwall a:first-child img{left: 0px;top: 0;animation: getR 1s ease;}
+#banner .picwall a:nth-child(2) img{left: 168px;top: 0;animation: getD 1s ease;}
+#banner .picwall a:nth-child(3) img{left: 336px;top: 0;animation: getD 1s ease;}
+#banner .picwall a:nth-child(4) img{left: 672px;top: 0;animation: getD 1s ease;}
+#banner .picwall a:nth-child(5) img{left: 0px;bottom: 0px;animation: getT 1s ease;}
+#banner .picwall a:nth-child(6) img{left: 336px;bottom: 0;}
+#banner .picwall a:nth-child(6) img:hover{transform: none;}
+#banner .picwall a:nth-child(7) img{left: 504px;bottom: 0;animation: getT 1s ease;}
+#banner .picwall a:nth-child(8) img{left: 672px;top: 168px;animation: getL 0.5s ease;}
+#banner .picwall a:nth-child(9) img{right: 7px;bottom: 0;animation: getT 1s ease;}
+.textbox{width: 100%;color: #fff;text-align: center;height: 116px;line-height: 116px;font-size: 36px;background: #3d3d3d;font-weight: bold;}
+#finance{height: 590px;width: 100%;overflow: hidden;}
+.content{width: 1200px;height: 590px;margin: 0 auto;position: relative;}
+#finance .finance-title{background: url(../images/financeTitle.png) no-repeat;background-size:100% 100%;height: 169px;width: 1756px;margin-left: -400px;}
+.right-title p{position: absolute;width: 600px;top: 25px;right: 20px;font-size: 18px;color: #fff;}
+.right-title p:nth-child(2){top: 80px;text-align: right;}
+.imgL{float: left;margin-top: 20px;opacity: 0;}
+.text{float:right;margin-top: 20px;opacity: 0;}
+.text h3{color:#f73856;margin: 30px 0 20px 0;font-size: 30px;font-weight: normal;}
+.text dl{font-size: 18px;display: block;line-height: 30px;margin-bottom: 5px;}
+.text dt{color: #999;float: left;}
+.text dd{font-size: 18px;margin-left: 90px;width: 255px;color: #333;}
+#insurance{background: #3d3d3d;overflow: hidden;}
+.left-title{background: url(../images/insuranceTitle.png) no-repeat;background-size:100% 100%;height: 169px;width: 1756px;margin-left: -190px;}
+.left-title p{position: absolute;width: 600px;top: 25px;left: 0px;font-size: 18px;color: #fff;}
+.left-title p:nth-child(2){top: 80px;text-align: right;}
+.imgR{float: right;margin-top: 20px;opacity: 0;}
+#insurance .insurance-text{float: left;}
+#insurance .insurance-text h3{margin: 10px 0;}
+#insurance .insurance-text dd{color: #fff;width: 270px;}
+#travel{overflow: hidden;}
+#travel .travel-title{background: url(../images/travelTitle.png) no-repeat;background-size:100% 100%;height: 169px;width: 1756px;margin-left: -400px;}
+#travel .travel-text h3{margin:10px 0;}
+#business{background:#f73856;overflow: hidden;}
+#business .business-title{background: url(../images/businessTitle.png) no-repeat;background-size:100% 100%;height: 169px;width: 1756px;margin-left: -190px;}
+#business .business-text{float: left;}
+#business .business-text h3{color: #fff;margin:15px 0;}
+#business .business-text h3.bl{margin-top: 50px;}
+#business .business-text dt{color:#ffa8b6;}
+#business .business-text dd{color: #fff;}
+#medical{overflow: hidden;}
+#medical .medical-title{background: url(../images/medicalTitle.png) no-repeat;background-size:100% 100%;height: 169px;width: 1756px;margin-left: -400px;}
+#medical .medical-text h3{margin:10px 0;}
+#education{background: #3d3d3d;overflow: hidden;}
+#education .education-title{background: url(../images/educationTitle.png) no-repeat;}
+#education .education-title p{width: 640px;}
+#education .education-text{float: left;}
+#education .education-text h3{margin: 10px 0;}
+#education .education-text h3.bl{margin-top: 50px;}
+#education .education-text dd{color: #fff;width: 260px;}
+#media{overflow: hidden;}
+#media .media-title{background: url(../images/mediaTitle.png) no-repeat;background-size:100% 100%;height: 169px;width: 1756px;margin-left: -400px;}
+#media .media-text h3{margin:10px 0;}
+#media .media-text h3.bl{margin-top: 40px;}
+#register{height: 281px;background: url(../images/registerBg.jpg);}
+#register .register-content{height: 281px;width: 1200px;margin: 0 auto;padding: 35px 0;text-align: center;}
+#register .register-content p{color: #fff;font-size: 24px;}
+#register .register-content span{color: #f73856;font-size: 72px;font-weight: 800;font-family: "Arial";margin: 0 20px;}
+#register .register-content input[type=text]{margin-top:30px;font-size: 20px;background-color: #e6e6e6;color: #999;padding:10px;width: 308px;height: 30px;line-height:30px;border:none;outline: none;}
+#register .register-content input[type=button]{width: 170px;height: 50px;margin-left: 20px;background: #f14a65;border:none;color: #fff;font-size: 20px;outline: none;}
+#footer{width: 850px;height:230px;margin: 0 auto;text-align: center;padding: 40px 0;overflow: hidden;}
+#footer dl{float: left;width: 120px;height: 140px;margin: 0 25px;}
+#footer dl dt{font-size: 24px;margin-bottom: 15px;}
+#footer dl dd{font-size: 16px;margin: 20px 0;}
+#footer dl dd a{color: #666;}
+#footer dl a.highlight{color: red;}
+#footer >img{float: right;}
+#copyright{height: 70px;width: 100%;background: #d4d4d4;text-align: center;line-height: 70px;color: #fff;font-size: 14px;}
+
+
+
+
+
+
+
